@@ -1,0 +1,22 @@
+AgriAssist/
+│
+├── main.py                  # Full FastAPI + Twilio + OpenAI bot
+├── utils.py                 # get_structured_prompt(), text_to_speech()
+├── dashboard.py             # Streamlit farmer dashboard (localhost:8501)
+├── requirements.txt         # All pip packages
+├── .env                     # Your secrets (DO NOT UPLOAD!)
+├── .gitignore               # Ignore venv, .env, db, audio
+├── agriassist.db            # SQLite database (cases + rate limit)
+│
+├── audio/                   # Generated voice MP3s
+│   ├── a2c2149d-c6c1-...mp3
+│   └── ...
+│
+├── venv/                    # Virtual environment (Python 3.13)
+│   └── Scripts/
+│       ├── python.exe
+│       ├── activate.bat
+│       └── pip.exe
+│
+├── ngrok.exe                # Local tunnel (optional)
+└── README.md                # This file
